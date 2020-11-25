@@ -65,12 +65,7 @@ namespace Academy.Negozio
 
 
                 }
-                //else if (resultarray.Length != 1 && resultarray.Length != 2 && resultarray.Length != 3 && resultarray.Length != 4)
-                //{
-                //    Console.WriteLine("E' stato inserito un numero errato di parametri");
-                    
-                //}
-
+             
                 
 
             }
@@ -136,11 +131,7 @@ namespace Academy.Negozio
                     myProdotto.data_inizio = newDateTime;
                     myProdotto.data_fine = newDateTime1;
                     DateTime now = DateTime.Now;
-                    //TimeSpan ts = now - myProdotto.data_inizio;
-                    //int days = Math.Abs(ts.Days);
-                    //if  (myProdotto.data_inizio <= now && myProdotto.data_fine.AddDays(1) >= now)
-
-                    
+                  
                         ProdottiInOfferta.Add(myProdotto);
                     
                     
@@ -195,11 +186,7 @@ namespace Academy.Negozio
 
 
                 }
-                //else
-                //{
-                //    Console.WriteLine("E' stato inserito un numero errato di parametri");
-
-                //}
+             
 
 
             }
